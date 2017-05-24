@@ -1964,11 +1964,6 @@
     order: 1; } }
 
 .modal-comment, .modal-user {
-  display: block;
-  width: 600px;
-  max-width: 100%;
-  height: 250px;
-  max-height: 100%;
   position: fixed;
   z-index: 100;
   left: 50%;
@@ -1976,6 +1971,19 @@
   transform: translate(-50%, -50%);
   background: white;
   box-shadow: 0 0 60px 10px rgba(0, 0, 0, 0.9); }
+
+.modal-comment {
+  display: block;
+  width: 600px;
+  max-width: 100%;
+  height: 250px;
+  max-height: 100%; }
+
+.modal-user {
+  width: 600px;
+  max-width: 100%;
+  height: 300px;
+  max-height: 100%; }
 
 .modal-overlay {
   position: fixed;
@@ -2157,9 +2165,7 @@ body {
 .modal-settings {
   background-color: #DDE0E4;
   color: #6F757E;
-  padding: 20px;
-  /*min-height: 100px;
-	overflow: hidden;*/ }
+  padding: 20px; }
   .modal-settings h4 {
     color: #3f454d;
     margin: 15px 0;
@@ -2206,19 +2212,13 @@ body {
 .modal-comment #btn-add-message {
   margin: 5px 0 5px 90px; }
 
-.modal-user {
-  height: 45%; }
-  .modal-user h4 {
-    margin: 15px 18px;
-    letter-spacing: 1px; }
-  .modal-user #btn-add-user {
-    margin: 5px 25px; }
+.modal-user h4 {
+  margin: 15px 18px;
+  letter-spacing: 1px; }
 
-/*@media only screen and (min-width: 48em) {	
+.modal-user #btn-add-user {
+  margin: 5px 25px; }
 
-	}*/
-/*@media only screen and (min-width: 62em) {
-	}*/
 @media only screen and (max-width: 48em) {
   .navbar .nav-right {
     margin-right: 0; }

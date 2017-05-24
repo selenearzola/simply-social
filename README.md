@@ -2,7 +2,7 @@
 
 ## Installation
 
-Assuming that you already have installed  NodeJs, please clone the repository from [here](https://github.com/selenearzola/simply-social.git)
+Assuming that you already have installed  NodeJs, please clone the repository from [here](https://github.com/selenearzola/simplysocial.git)
 
 Then, in the command line run:
 
